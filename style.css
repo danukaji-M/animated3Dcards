@@ -1,0 +1,40 @@
+.cards {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transform: rotateX(-15deg) rotateY(35deg);
+}
+
+.crd {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(14, 235, 255);
+    border: 1px solid rgb(255, 102, 102);
+    border-radius: 30px;
+}
+
+.card1 {
+    transform: translateZ(00px);
+    transition: transform 0.5s;
+}
+
+.card2 {
+    transform: translateZ(100px);
+    transition: transform 0.5s;
+}
+
+.card3 {
+    transform: translateZ(200px);
+    transition: transform 0.5s;
+}
+.card1:hover{
+    transform: translateZ(300px);
+}
+.card2:hover{
+    transform: translateZ(400px);
+}
+.card3:hover{
+    transform: translateZ(400px);
+}
